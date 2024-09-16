@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanRangeSliderSample", "PanRangeSliderSample\PanRangeSliderSample.csproj", "{33E3A8A7-8C09-4E17-BA9E-BC8E9EB8B1DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanRangeSlider", "PanRangeSlider\PanRangeSlider.csproj", "{C8339881-377F-4DC8-9B29-14C21C9F8539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33E3A8A7-8C09-4E17-BA9E-BC8E9EB8B1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E3A8A7-8C09-4E17-BA9E-BC8E9EB8B1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E3A8A7-8C09-4E17-BA9E-BC8E9EB8B1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E3A8A7-8C09-4E17-BA9E-BC8E9EB8B1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8339881-377F-4DC8-9B29-14C21C9F8539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8339881-377F-4DC8-9B29-14C21C9F8539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8339881-377F-4DC8-9B29-14C21C9F8539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8339881-377F-4DC8-9B29-14C21C9F8539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
