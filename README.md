@@ -1,7 +1,7 @@
 ## RangeSlider.MAUI
 Range Slider control allows to select ranges in .NET MAUI apps.
 
-![sample](https://github.com/AndreiMisiukevich/RangeSlider.MAUI/blob/master/images/sample.gif?raw=true)
+![sample](https://github.com/AndreiMisiukevich/RangeSlider.MAUI/blob/main/images/sample.gif?raw=true)
 
 ## Setup
 * Available on NuGet: [RangeSlider](http://www.nuget.org/packages/RangeSlider.Maui) [![NuGet](https://img.shields.io/nuget/v/RangeSlider.Maui.svg?label=NuGet)](https://www.nuget.org/packages/RangeSlider.Maui)
