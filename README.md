@@ -48,6 +48,7 @@ The sample you can find [here](https://github.com/AndreiMisiukevich/RangeSlider.
 | LowerThumbRadius            | -1.0        | Lower Thumb radius |
 | UpperThumbRadius            | -1.0        | Upper Thumb radius |
 | TrackRadius                 | -1.0        | Track radius |
+| StepValue                   | 0.0         | Step Value to provide incremental steps along the path of the slider |
 
 ## License
 The MIT License (MIT) see [License file](LICENSE)
