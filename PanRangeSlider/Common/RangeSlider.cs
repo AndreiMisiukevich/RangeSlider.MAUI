@@ -690,13 +690,9 @@ public class RangeSlider : TemplatedView
 
 sealed class ThumbFrame : Frame
 {
-    public ThumbFrame() => Unloaded += OnUnloaded;
-
-	void OnUnloaded(object? sender, EventArgs args)
-	{
-		Unloaded -= OnUnloaded;
-		Handler?.DisconnectHandler();
-	}
+    public ThumbFrame() 
+    {
+    }
 }
 
 sealed partial class ThumbFrameHandler : LayoutHandler
