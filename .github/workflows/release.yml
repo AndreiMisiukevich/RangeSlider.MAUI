@@ -9,7 +9,13 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Install MAUI workloads
+        run: dotnet workload restore PanRangeSlider/PanRangeSlider.csproj
       - name: Build
         run: dotnet build PanRangeSlider --configuration Release
       - name: Create Artifact
