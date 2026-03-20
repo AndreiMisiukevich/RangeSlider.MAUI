@@ -1,7 +1,8 @@
-﻿using System.Runtime.CompilerServices;
-using Microsoft.Maui.Controls.Shapes;
-using static System.Math;
+﻿using Microsoft.Maui.Controls.Shapes;
+using PanRangeSlider.Common;
+using System.Runtime.CompilerServices;
 using static Microsoft.Maui.Controls.AbsoluteLayout;
+using static System.Math;
 
 namespace PanRangeSlider;
 
@@ -663,9 +664,13 @@ public class RangeSlider : TemplatedView
     }
 
     double GetPanShiftValue(View view)
-        => DeviceInfo.Platform == DevicePlatform.Android
-            ? view.TranslationX
-            : thumbPositionMap[view];
+    {
+        if (DeviceInfo.Platform != DevicePlatform.Android 
+            || MicrosoftMauiControlsVersionHelper.CanSupportsNewPanRunning())
+            return thumbPositionMap[view];
+
+        return view.TranslationX;
+    }
 
     void SetValueLabelBinding(Label label, BindableProperty bindableProperty)
         => label.SetBinding(Label.TextProperty, new Binding
